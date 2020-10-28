@@ -1,0 +1,10 @@
+.menu-header{
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    text-align: right;
+    border-bottom: 1px solid #e5e5e5;
+    /*font-family: 'Neuton', serif;*/
+    font: 700 2rem 'Markazi Text', serif;
+    /*font: 700 2rem 'Neuton', serif;*/
+}

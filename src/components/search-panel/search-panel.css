@@ -1,0 +1,25 @@
+.search-panel__div{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.search-panel__input{
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    /*margin: 0 0 2rem auto;*/
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.search-panel__input:focus{
+    width: 60%;
+    border: none;
+}
+
+.search-panel__search-ico{
+    margin: 0.5rem 1rem 0 0;
+}

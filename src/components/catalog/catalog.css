@@ -1,0 +1,23 @@
+.catalog{
+    position: relative;
+    width: 20%;
+    min-width: 300px;
+    border-right: 1px solid gray;
+    height: 500px;
+}
+.ul-catalog{
+    list-style: none;
+}
+
+.catalog__li{
+    color: lightslategray;
+}
+.catalog__li:hover{
+    background-color: orange;
+    animation: backgroud-anim 0.3s ease-in-out;
+    cursor: pointer;
+}
+@keyframes backgroud-anim{
+    0% { background-color: beige; }
+    100% { background-color: orange; }
+}
